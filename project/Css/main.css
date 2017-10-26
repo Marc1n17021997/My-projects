@@ -1,0 +1,32 @@
+body
+{
+    background-image: url(../Images/dkit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main
+{
+    border-radius: 25px;
+    background-color:cyan;
+    width: 1000px;
+    margin-left: 250px;
+}
+#header
+{
+   width: 60%;
+   height: 500px;
+   margin-left: 250px;
+   border-radius: 25px;
+}
+h1 , h2
+{
+    margin-left: 400px;
+}
+input , select , label , footer
+{
+    margin-left: 400px;
+}
+table
+{
+    margin-left: 300px;
+}

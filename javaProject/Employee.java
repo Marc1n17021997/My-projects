@@ -178,6 +178,7 @@ public class Employee
                     {
                         System.out.println(earnings.get(z));
                     }
+                    break;
                 }
                 case 9:
                 {
@@ -277,9 +278,13 @@ public class Employee
             }
             else
             {
-                isExist = false;
                 System.out.println("Only 1 Employee Found!");
             }
+        }
+        
+        if(isExist == false)
+        {
+            System.out.println("Error , employee not found");
         }
         System.out.println("***************************");
     }
